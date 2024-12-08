@@ -1,2 +1,827 @@
 # design-css
-Responsive web page design
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open Sans' rel='stylesheet'>
+    <title>Project</title>
+</head>
+
+<body>
+
+    <!-- menu -->
+    <menu>
+        <nav>
+            <img class="Homeey-logo" src="./assets/icons/Homeey-logo.png">
+            <div>
+                <a href="">Property</a>
+                <a href="">About</a>
+                <a href="">Contact</a>
+            </div>
+        </nav>
+    </menu>
+    
+    <!-- header -->
+    <header class="hero-section">
+
+            <h1>Find Your Best <br> <span>Real Estate</span></h1>
+            <p>
+                Nemo enim ipsam voluptatem quia voluptas sit aspernat<br> odit aut fugit, sed quia consequuntur magni dolores<br> qui ratione sequi nesciunt.
+            </p>
+
+            
+            <form action="">
+                <div class="Tree-Buttons">
+                    <a class="Buy" href="">Buy</a>
+                    <a href="">Sell</a>
+                    <a href="">Rent</a>
+                </div>
+
+                <div class="selects">
+
+                    <!-- Location -->
+                    <div class="select1">
+
+                        <label for="location">Location</label>
+                        <img src="./assets/icons/map-marker-radius-outline.svg" alt="Location">
+                        
+                        <select name="location" id="location">
+                            <option value="Location1">Location</option>
+                            <option value="Location2">Location2</option>
+                            <option value="Location3">Location3</option>
+                        </select>
+                        
+                    </div>
+                
+                    <!-- Property -->
+                    <div class="select1">
+
+                        <label for="Property">Property</label>
+                        <img src="./assets/icons/Vector.svg" alt="">
+                        
+                        <select name="Property" id="Property">
+                            <option value="Property1">Property</option>
+                            <option value="Property2">Property2</option>
+                            <option value="Property3">Property3</option>
+                        </select>
+                    </div>
+                
+                    <!-- Price -->
+                    <div class="select1">
+
+                        <label for="Price">Price</label>
+                        <img src="./assets/icons/Vector (1).svg" alt="">
+                        
+                        <select name="Price" id="Price">
+                            <option value="Price1">Price</option>
+                            <option value="Price2">Price2</option>
+                            <option value="Price3">Property3</option>
+                        </select>
+                    </div>
+
+                    <button type="button"><img src="./assets/icons/Vector (2).svg" alt=""> Search</button>
+
+                </div>
+            </form>
+            
+        
+    </header>
+
+    <!-- Property-Types -->
+    <section class="Property-Types">
+
+        <h2>Property <strong>Types</strong></h2>
+        
+        <div class="Properties">
+            <section class="Property1">
+                <div>
+                    <img class="Icon" src="./assets/icons/Mask group.svg" alt="">
+                </div>
+                <p class="Topic">Private House</p>
+                <p class="knowledge">360 listing</p>
+            </section>
+
+            <section class="Property1">
+                <div>
+                    <img class="Icon" src="./assets/icons/Mask group (1).svg" alt="">
+                </div>
+                <p class="Topic">Apartment</p>
+                <p class="knowledge">265 listing</p>
+            </section>
+        
+            <section class="Property1">
+            
+                <div>
+                    <img class="Icon" src="./assets/icons/Mask group (2).svg" alt="">
+                </div>
+                <p class="Topic">Exlusive Hotel</p>
+                <p class="knowledge">480 listing</p>
+            </section>
+        
+            <section class="Property1">
+            
+                <div>
+                    <img class="Icon" src="./assets/icons/Mask group (3).svg" alt="">
+                </div>
+                <p class="Topic">Private Room</p>
+                <p class="knowledge">102 listing</p>
+            </section>
+        
+            <section class="Property1">
+            
+                <div>
+                    <img class="Icon" src="./assets/icons/Mask group (4).svg" alt="">
+                </div>
+                <p class="Topic">Warehouse</p>
+                <p class="knowledge">136 listing</p>
+            </section>
+        </div>
+    
+        <div class="dots">
+            <img src="./assets/icons/dot.png" alt="">
+            <img src="./assets/icons/dot.png" alt="">
+            <img src="./assets/icons/dot.png" alt="">
+        </div>
+        
+    </section>
+    
+    <!-- main -->
+    <main>
+
+        <h2><strong>Popular</strong> Property Deals</h2>
+
+        <div class="Houses">
+
+            <div class="House">
+                <img class="The-House" src="./assets/images/house.png" alt="house">
+                
+                <div class="bottom">
+                    <h4>The Most Luxarious House</h4>
+                    <img src="./assets/icons/map-marker-radius-outline.svg" alt="">
+                    <p>4059 Waterview Texico, NM 88135</p>
+                    
+                    <img src="./assets/icons/bedroom.svg" alt="bedroom">
+                    <p class="bedroom">3 Bedroom</p>
+                    
+                    <img src="./assets/icons/bathroom.svg" alt="bathroom">
+                    <p>2 Bathroom</p>
+                    <hr>
+
+                    <div class="bottom2">
+                        <p class="price">$1,560/ Night</p>
+                        <a href="">View More</a>
+                    </div>
+                </div>
+
+                <button type="button">For Sale</button>
+            </div>
+
+            <div class="House">
+                <img class="The-House" src="./assets/images/house2.png" alt="house">
+                <div class="bottom">
+                    <h4>Flint Hill Luxarious House</h4>
+                    <img src="./assets/icons/map-marker-radius-outline.svg" alt="">
+                    <p>470 Lost Creek Road, PA 19103</p>
+                    
+                    <br>
+                    
+                    <img src="./assets/icons/bedroom.svg" alt="bedroom">
+                    <p class="bedroom">4 Bedroom</p>
+                    
+                    <img src="./assets/icons/bathroom.svg" alt="bathroom">
+                    <p>3 Bathroom</p>
+                    <hr>
+
+                    <div class="bottom2">
+                        <p class="price">$2,500/ Night</p>
+                        <a href="">View More</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="House">
+                <img class="The-House" src="./assets/images/house3.png" alt="house">
+                <div class="bottom">
+                    <h4>The Skay View Farm House</h4>
+                    <img src="./assets/icons/map-marker-radius-outline.svg" alt="">
+                    <p>4033 Caynor Piscataway, NJ 08854</p>
+                    
+                    <br>
+                    
+                    <img src="./assets/icons/bedroom.svg" alt="bedroom">
+                    <p class="bedroom">2 Bedroom</p>
+                    
+                    <img src="./assets/icons/bathroom.svg" alt="bathroom">
+                    <p>2 Bathroom</p>
+                    <hr>
+
+                    <div class="bottom2">
+                        <p class="price">$1,600/ Night</p>
+                        <a href="">View More</a>
+                    </div>
+                </div>
+
+                <button type="button">For Sale</button>
+            </div>
+
+            <div class="House">
+                <img class="The-House" src="./assets/images/house4.png" alt="house">
+                <div class="bottom">
+                    <h4>Capital House</h4>
+                    <img src="./assets/icons/map-marker-radius-outline.svg" alt="">
+                    <p>208 Barrington Court, AR 72601</p>
+                    
+                    <br>
+                    
+                    <img src="./assets/icons/bedroom.svg" alt="bedroom">
+                    <p class="bedroom">5 Bedroom</p>
+                    
+                    <img src="./assets/icons/bathroom.svg" alt="bathroom">
+                    <p>6 Bathroom</p>
+                    <hr>
+
+                    <div class="bottom2">
+                        <p class="price">$4,200/ Night</p>
+                        <a href="">View More</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="House">
+                <img class="The-House" src="./assets/images/house5.png" alt="house">
+                <div class="bottom">
+                    <h4>A Modern Accentuates House</h4>
+                    <img src="./assets/icons/map-marker-radius-outline.svg" alt="">
+                    <p>1904 Drummond Newark, NJ 07102</p>
+                    
+                    <br>
+                    
+                    <img src="./assets/icons/bedroom.svg" alt="bedroom">
+                    <p class="bedroom">2 Bedroom</p>
+                    
+                    <img src="./assets/icons/bathroom.svg" alt="bathroom">
+                    <p>2 Bathroom</p>
+                    <hr>
+
+                    <div class="bottom2">
+                        <p class="price">$2,100/ Night</p>
+                        <a href="">View More</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="House">
+                <img class="The-House" src="./assets/images/house6.png" alt="house">
+                <div class="bottom">
+                    <h4>Spacious & Warm Flat</h4>
+                    <img src="./assets/icons/map-marker-radius-outline.svg" alt="">
+                    <p>4806 Public Works Drive, TN 37745</p>
+                    
+                    <br>
+                    
+                    <img src="./assets/icons/bedroom.svg" alt="bedroom">
+                    <p class="bedroom">1 Bedroom</p>
+                    
+                    <img src="./assets/icons/bathroom.svg" alt="bathroom">
+                    <p>1 Bathroom</p>
+                    <hr>
+
+                    <div class="bottom2">
+                        <p class="price">$800/ Night</p>
+                        <a href="">View More</a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="House">
+                <img class="The-House" src="./assets/images/house7.png" alt="house">
+                <div class="bottom">
+                    <h4>Orchard Farm House</h4>
+                    <img src="./assets/icons/map-marker-radius-outline.svg" alt="">
+                    <p>3521 Jenna Lane Des, IA 50309</p>
+                    
+                    <br>
+                    
+                    <img src="./assets/icons/bedroom.svg" alt="bedroom">
+                    <p class="bedroom">3 Bedroom</p>
+                    
+                    <img src="./assets/icons/bathroom.svg" alt="bathroom">
+                    <p>2 Bathroom</p>
+                    <hr>
+
+                    <div class="bottom2">
+                        <p class="price">$2,000/ Night</p>
+                        <a href="">View More</a>
+                    </div>
+                </div>
+
+                <button type="button">For Sale</button>
+            </div>
+
+            <div class="House">
+                <img class="The-House" src="./assets/images/house8.png" alt="house">
+                <div class="bottom">
+                    <h4>Perum Kencana asri Flat</h4>
+                    <img src="./assets/icons/map-marker-radius-outline.svg" alt="">
+                    <p>1102 Mattson Street, OR 97205</p>
+                    
+                    <br>
+                    
+                    <img src="./assets/icons/bedroom.svg" alt="bedroom">
+                    <p class="bedroom">1 Bedroom</p>
+                    
+                    <img src="./assets/icons/bathroom.svg" alt="bathroom">
+                    <p>2 Bathroom</p>
+                    <hr>
+
+                    <div class="bottom2">
+                        <p class="price">$1,560/ Night</p>
+                        <a href="">View More</a>
+                    </div>
+                </div>
+
+                <button type="button">For Sale</button>
+            </div>
+            
+        </div>
+
+        <dir class="View-More">
+            <button type="button">View-More <img src="./assets/icons/arrow-right-thin.svg" alt="arrow-right"></button>
+        </dir>
+    </main>
+
+    <!-- About-Us -->
+    <section class="About-Us">
+        <h2><strong>About</strong> Us</h2>
+
+        <div class="About">
+            <div>
+                <img src="./assets/images/about-img 1.png" alt="about-img">
+            </div>
+            
+            <div class="text">
+                <h3>We Are The Best And Trusted
+                    <strong>Real Estate</strong> Agent
+                </h3>
+                <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis 
+                    est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.
+                </p>
+                <br>
+                <p>Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae.
+                </p>
+                <br>
+                <p>Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis 
+                    est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.
+                </p>
+                <br>
+                <p>Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium,
+                    totam rem aperiam, eaque ipsa quae.
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- About-Us2 -->
+    <section class="About-Us2">
+        <div class="text2">
+            <h3>
+                We Are Offernig The Best
+                <strong>Real Estate</strong> Deals
+            </h3>
+            <p>
+                Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis 
+                est eligendi optio cumque nihil impedit quo minus id quod maxime placeat.
+            </p>
+            <br>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus voluptatem accusantium doloremque laudantium,
+                totam rem aperiam, eaque ipsa quae.
+            </p>
+
+            <div class="arrow-text">
+               
+                <p>
+                    <img src="./assets/icons/arrow-right-thin.png" alt="arrow-right-thin">
+                    A building with only one room and typically a steep pointy roof.
+                </p>
+                
+                <p>
+                    <img src="./assets/icons/arrow-right-thin.png" alt="arrow-right-thin">
+                    A vehicle on wheels that has a permanent residence attached to it.
+                </p>
+
+                <p>
+                    <img src="./assets/icons/arrow-right-thin.png" alt="arrow-right-thin">
+                    Performing financial analysis and valuation of properties.
+                </p>
+
+                <p>
+                    <img src="./assets/icons/arrow-right-thin.png" alt="arrow-right-thin">
+                    Someone who examines buildings and works with appraisers.
+                </p>
+
+                <p>
+                    <img src="./assets/icons/arrow-right-thin.png" alt="arrow-right-thin">
+                    A dwelling typically made of raw materials such as bamboo, mud, and clay.
+                </p>
+            </div>
+
+            <a href="">View More</a>
+        </div>
+
+        <div class="About-house">
+            <img src="./assets/images/About-house.png" alt="About-house">
+        </div>
+
+    </section>
+
+    <!-- data -->
+    <section class="data">
+        <div class="container">
+
+            <div class="card">
+                <img class="crown" src="./assets/icons/crown.png" alt="crown">
+                <h1 class="views">10.5k</h1>
+                <hr class="hr-premium">
+                <p class="premium-property">premium property</p>
+            </div>
+            
+            <div class="card">
+                <img class="crown" src="./assets/icons/emoticon-happy.png" alt="crown">
+                <h1 class="views">800+</h1>
+                <hr class="hr-premium">
+                <p class="premium-property">Happy Customer</p>
+            </div>
+            
+            <div class="card">
+                <img class="crown" src="./assets/icons/Vector (3).svg" alt="crown">
+                <h1 class="views">1200</h1>
+                <hr class="hr-premium">
+                <p class="premium-property">Awward Winning</p>
+            </div>
+            
+            <div class="card">
+                <img class="crown" src="./assets/icons/Vector (4).svg" alt="crown">
+                <h1 class="views">750</h1>
+                <hr class="hr-premium">
+                <p class="premium-property">Years Experience</p>
+            </div>
+        </div>
+            
+    </section>
+
+    <!-- clients -->
+    <section class="clients">
+            
+            <h2>
+                What Our <strong>Client Says</strong> 
+            </h2>
+
+        <div class="Cards">
+
+            <div class="Card">
+                
+                <img class="person" src="./assets/images/person1.png" alt="woman">
+                <img class="dashes" src="./assets/icons/quote.svg" alt="dashes">
+                
+                <div class="text">
+                    <p class="quote">
+                        Maecenas as odio ante tincidunt tempu donec vitae 
+                        sapien ut libero venena faucibus nullam quis ante
+                        etiam a amet orci eget eros faucibus tincidunt.
+                    </p>
+                    <hr class="hr-person">
+                </div>
+                
+                
+                <div class="bottom">
+                    <div>
+                        <h3 class="Derrick">Christopher J. Larson</h3>
+                        <p class="role">Service Manager</p>
+                    </div>
+                    
+                    <div class="stars">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                    </div>
+                </div>
+            </div>
+
+            <div class="Card">
+                
+                <img class="person" src="./assets/images/person2.png" alt="woman">
+                <img class="dashes" src="./assets/icons/quote.svg" alt="dashes">
+                
+                <div class="text">
+                    <p class="quote">
+                        Aenean vulputate eleifend tellus. Aenean leo ligula,
+                        porttitor eu, consequat vitae, eleifend ac, enim. 
+                        Aliquam lorem ante, dapibus in, viverra quis.
+                    </p>
+                    <hr class="hr-person">
+                </div>
+                
+                
+                <div class="bottom">
+                    <div>
+                        <h3 class="Derrick">Derrick P. boudreaux</h3>
+                        <p class="role">Web Developer</p>
+                    </div>
+                    
+                    <div class="stars">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                    </div>
+                </div>
+            </div>
+
+            <div class="Card">
+                
+                <img class="person" src="./assets/images/person3.png" alt="woman">
+                <img class="dashes" src="./assets/icons/quote.svg" alt="dashes">
+                
+                <div class="text">
+                    <p class="quote">
+                        Cras ultricies a turpis hendrerit fringilla vestibulum
+                        ante ipsum primis faucibus orci luctus et ultrices
+                        posuere In ac consectetuer lacinia.
+                    </p>
+                    <hr class="hr-person">
+                </div>
+                
+                
+                <div class="bottom">
+                    <div>
+                        <h3 class="Derrick">Stanley S. Nesbitt</h3>
+                        <p class="role">Company Founder</p>
+                    </div>
+                    
+                    <div class="stars">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                        <img class="star" src="./assets/icons/star.svg" alt="star">
+                    </div>
+                </div>
+            </div>
+
+            
+        </div>
+        
+        <div class="dots">
+            <img src="./assets/icons/dot.png" alt="">
+            <img src="./assets/icons/dot.png" alt="">
+            <img src="./assets/icons/dot.png" alt="">
+        </div>
+    </section>
+
+    <!-- Featured-Properties -->
+    <section class="Featured-Properties">
+        <div class="container">
+
+            <h2>
+                Featured <strong>Properties</strong> 
+            </h2>
+            
+            <div class="Sales">
+                
+                <div class="Featured">
+                    <img class="house" src="./assets/images/sale1.png" alt="house">
+                    
+                    <div class="bottom">
+                        <div class="left">
+                            <h4 class="positionHouse">A Modern House Accentuates</h4>
+                            <img class="position" src="./assets/icons/map-marker-radius-outline.svg" alt="position">
+                            <p class="position2">4059 Waterview Texico, NM 88135</p>
+                            <div class="stars2">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">        
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <button class="For-Sale">For Sale</button>
+                            <p class="price">$850</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="Featured">
+                    <img class="house" src="./assets/images/sale2.png" alt="house">
+                    
+                    <div class="bottom">
+                        <div class="left">
+                            <h4 class="positionHouse">Capital Hill Resident in New Your</h4>
+                            <img class="position" src="./assets/icons/map-marker-radius-outline.svg" alt="position">
+                            <p class="position2">1758 Lake Floyd Circle, DE 19707</p>
+                            <div class="stars2">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">        
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <button class="For-Sale">For Sale</button>
+                            <p class="price">$1,050</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="Featured">
+                    <img class="house" src="./assets/images/sale3.png" alt="house">
+                    
+                    <div class="bottom">
+                        <div class="left">
+                            <h4 class="positionHouse">A Modern House Accentuates</h4>
+                            <img class="position" src="./assets/icons/map-marker-radius-outline.svg" alt="position">
+                            <p class="position2">3994 Jewell Road, MN 55402</p>
+                            <div class="stars2">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">
+                                <img class="star2" src="./assets/icons/star.svg" alt="star">        
+                            </div>
+                        </div>
+                        
+                        <div class="right">
+                            <button class="For-Sale">For Sale</button>
+                            <p class="price">$1,200</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            
+            <div class="arrows">
+                <img src="./assets/icons/arrow-left.png" alt="arrow-left">
+                <img src="./assets/icons/arrow-right.png" alt="arrow-right">
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Subscribe -->
+    <section class="Subscribe">
+
+            <h3>
+                Subscribe to get the latest
+                news for you! 
+            </h3>
+
+            <form action="">
+                <label for="email">Enter your email:</label>
+                <input type="email" id="email" name="email" value="Enter your email...">
+                <button type="submit">Subscribe</button>
+            </form>
+
+            <img src="./assets/images/home.png" alt="home">
+            
+
+    </section>
+
+    <!-- fotter -->
+    <footer>
+        <div class="container">
+
+            <div>
+                <img src="./assets/icons/Homeey-logo.svg" alt="Homeey-logo">
+                <p>
+                    Nemo enim ipsam voluptatem quia voluptas sit 
+                    aspernatur a odit aut fugit sed consequuntur 
+                    magni dolores eos qui ratione.
+                </p>
+                
+                <h6>
+                    Follow Us
+                </h6>
+                
+                <div class="icons">
+                    <img src="./assets/icons/facebook.png" alt="facebook">
+                    <img src="./assets/icons/instagram.png" alt="instagram">
+                    <img src="./assets/icons/facebook (1).png" alt="facebook">
+                    <img src="./assets/icons/whatsapp.png" alt="whatsapp">
+                </div>
+            </div>
+            
+            <div>
+                <h6>
+                    About Us
+                </h6>
+                <div class="How-It-Work">
+                    <img src="./assets/icons/pan-right.png" alt="pan-right">
+                    <p>
+                        How It Work
+                    </p>
+                </div>
+                <p>
+                    Customers
+                </p>
+                <p>
+                    Our Story
+                </p>
+                <p>
+                    Career
+                </p>
+                <p>
+                    Contact Us
+                </p>
+                <p>
+                    FAQs
+                </p>
+            </div>
+        
+            <div>
+                <h6>
+                    Support & Summary
+                </h6>
+                <p>
+                    Question
+                </p>
+                <p>
+                    Helping Center
+                </p>
+                <p>
+                    Privacy & Policy
+                </p>
+                <p>
+                    Buy or Rent
+                </p>
+                <p>
+                    Properties
+                </p>
+                <p>
+                    Blogs
+                </p>
+            </div>
+        
+            <div>
+                <h6>
+                    Contact Us
+                </h6>
+                <div class="div2">
+                    <img src="./assets/icons/email.png" alt="email">
+                    <div>
+                        <p class="p1">
+                            E-mail
+                        </p>
+                        <p class="p2">
+                            youremailid@gmail.com
+                        </p>
+                    </div>    
+                </div>
+            
+                <div class="div2">
+                    <img src="./assets/icons/contact.png" alt="contact">
+                    <div>    
+                        <p class="p1">
+                            Contact
+                        </p>
+                        <p class="p2">
+                            (+01) 123 456 7890
+                        </p>
+                    </div>
+                </div>
+            
+                <div class="div2">
+                    <img src="./assets/icons/email.png" alt="email">
+                    <div>
+                        <p class="p1">
+                            Location
+                        </p>
+                        <p class="p2">
+                            3012 Pine Garden Lane Atlanta, Boulevard, GA 30328
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+</body>
+</html>
+
+
